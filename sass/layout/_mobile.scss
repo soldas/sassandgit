@@ -1,0 +1,88 @@
+@media screen and (max-width: 1171px) {
+#header, #container, #footer{
+margin-left:10px;
+margin-right:10px;
+}
+
+nav{
+	   margin-top: 81px;
+	
+	ul {
+		display: none;
+	}
+	
+	a {
+		color: #fff;
+	}
+	
+	a:hover {
+		background-color: $primary-color;
+		-moz-border-radius: 0px;
+		-webkit-border-radius: 0px;
+		-o-border-radius: 0px;
+		border-radius: 0px;
+	}
+ 
+	.current-menu-item {
+		background-color: $primary-color;
+		-moz-border-radius: 0px;
+		-webkit-border-radius: 0px;
+		-o-border-radius: 0px;
+		border-radius: 0px;
+		padding-left:0;
+	}  
+
+	 ul li {
+		display: block;
+  		float: none;
+  		width: 100%;
+  		text-align: center;
+  		background: $secondary-color;
+	}
+
+	 ul > li {
+  		margin-left: 0px;
+	}
+
+	ul li ul li {
+  		display: block;
+		float: none;
+	}
+  
+	 ul li ul {
+		display: block;
+  		position: relative;
+  		width: 100%;
+		z-index: 9999;
+		float: none;
+	}
+}
+
+label {
+  	display: block;
+	width: 40px;
+  	height: 40px;
+  	cursor: pointer;
+	position: absolute;
+	right: 20px;
+	top:80px;
+}
+  
+label:after{
+	content:'';
+	display: block;
+	width: 30px;
+	height: 5px;
+	background: $primary-color;
+	margin: 7px 5px;
+	box-shadow: 0px 10px 0px $primary-color, 0px 20px 0px $primary-color
+}
+
+[type="checkbox"]:checked ~ ul {
+  	display: block;
+  	z-index: 9999;
+  	position: absolute;
+	right: 20px;
+	left: 20px;
+	}
+}

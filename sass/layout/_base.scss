@@ -1,0 +1,131 @@
+html *{
+   font-family: Open Sans !important;
+}
+
+html, body {
+	height: 100%;
+}
+
+body{
+	min-height:100%;
+}
+
+h1{font-size:1.4em;}
+h2{font-size:2em;}
+h3{}
+h4{}
+h5{}
+h6{}
+
+a{
+	color: $primary-color;
+	text-decoration: none;
+}
+
+p{
+	margin-bottom:15px;
+}
+
+header{
+	background-color:$secondary-color;
+	height:150px;
+}
+#header{
+	max-width:$site-width;
+	margin:auto;
+}
+
+#logo{
+	float:left;
+	margin-top:35px;
+}
+ 
+.site-content{
+	max-width:$site-width;
+	margin:auto;
+	margin-bottom:70px;
+}
+
+.main{
+	width:76%;
+	float:left;
+}
+
+.sidebar{
+	width:20%;
+	float:right;
+	text-align:right;
+}
+
+.main-home{
+	width:100%;
+}
+
+.heading {
+	  text-align:center;
+	  margin-top:70px;
+	  margin-bottom:20px;	  
+}
+
+.header{
+  border-width: 3px;
+   border-bottom: 3px $primary-color solid;
+   width:150px;
+   margin:auto;
+   margin-bottom:70px;
+}
+
+footer{
+	background-color:$secondary-color;
+	height:63px;
+	clear:both;
+}
+
+.site-footer{
+	background-color:$secondary-color;
+}
+
+#footer{
+	max-width:$site-width;
+	margin:auto;
+}
+
+#footer p{
+	margin-bottom:0;
+}
+
+#copy {
+	float: left;
+	clear:both;
+	margin-top:20px;
+	color:#fff;
+}
+
+#up {
+	height:63px;
+	width:40px;
+	float:right;
+	background-color:$primary-color;
+	display:inline-block; 
+}
+
+#up img{
+	margin-top:23px;
+	margin-left:8px;
+}
+
+.alignright{
+float:right;
+margin-left:25px;
+margin-bottom:25px;
+}
+
+.alignleft{
+float:left;
+margin-right:35px;
+margin-bottom:25px;
+margin-top:25px;
+}
+
+
+
