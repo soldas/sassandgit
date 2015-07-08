@@ -1,3 +1,9 @@
+<?php
+	
+/*
+Template Name: Full Width
+*/
+
 <?php get_header();?>
 	<div class="site-content">
 		<div class="main-home">
