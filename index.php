@@ -1,5 +1,5 @@
 <?php get_header();?>
-	<div class="site-content">
+	<div class="site-content1">
 		<div class="main">
 			<?php 
 				if (have_posts()) :
