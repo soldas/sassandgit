@@ -1,6 +1,6 @@
 <article class="post <?php if(has_post_thumbnail()){ ?>has-thumb<?php }?>">
 		<div class="post-thumb"> 
-			<a href="<?php the_permalink();?>"><?php the_post_thumbnail('small-thumb');?>
+			<a href="<?php the_permalink();?>"><?php the_post_thumbnail('small-thumb');?></a>
 		</div>
 			<h1 class="heading"><?php the_title();?></h1><div class="header"></div>
 				<p class="post-info"><?php the_time('F jS, Y g:i a');?> | <a href="<?php echo get_author_posts_url(get_the_author_meta('ID'));?>"><?php the_author();?></a>
